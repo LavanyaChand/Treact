@@ -307,8 +307,6 @@ nav{
 /*Quality Work*/
 
 .quality__row{
-    padding-top: 7%;
-    padding-bottom: 7%;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -348,8 +346,6 @@ nav{
 /*Steps*/
 
 .steps__row{
-    padding-top: 8%;
-    padding-bottom: 8%;
     display: flex;
     align-items: center;
 }
@@ -425,3 +421,83 @@ nav{
     line-height: 2;
 }
 
+/*Values*/
+
+.values__row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.values__description, .values__img--wrapper{
+    width: 50%;
+}
+
+.values__description{
+    max-width: 550px;
+}
+
+.values__description--para{
+    line-height: 1.75;
+}
+
+.values__list{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.value{
+    width: calc(100%/2);
+}
+
+.value:nth-of-type(1) {
+    margin-right: 32px;
+}
+
+.value__title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.value:nth-child(1) .value__img--wrapper{ /*For Afoordable icon*/
+    background-color: #9ae6b4;
+}
+
+.value:nth-child(2) .value__img--wrapper{ /*For Professionalism icon*/
+    background-color: #feb2b2;
+}
+
+.value__img--wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 38px;
+    height: 38px;
+}
+
+.value__img{
+    width: 20px;
+    height: 20px;
+}
+
+.value__title--name{
+    margin-left: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #243e63;
+}
+
+.value__para{
+    line-height: 1.5;
+    color: #718096;
+}
+
+.values__img--wrapper{
+    display: flex;
+}
+
+.values__img{
+    width: 100%;
+}
